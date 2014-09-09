@@ -1,0 +1,24 @@
+{
+  "name": "dom-matchesselector",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Test if an element matches a given selector",
+  "scripts": {
+    "watch-demo-js": "watchify test/main.js -o test/bundle.js"
+  },
+  "keywords": [
+    "dom",
+    "selector",
+    "query"
+  ],
+  "author": "Jason Frame <jason@onehackoranother.com> (jasonframe.co.uk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaz303/dom-matchesselector.git"
+  },
+  "devDependencies": {
+    "uglify-js": "~2.4.14",
+    "tape": "~2.13.3"
+  }
+}
